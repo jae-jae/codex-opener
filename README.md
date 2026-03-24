@@ -1,8 +1,10 @@
+<div align="center">
+  <img src="images/screenshot.png" alt="Screenshot" width="600">
+</div>
+
 # Codex Opener
 
 A VS Code extension that adds a button to open your current project in [Codex](https://github.com/openai/codex) desktop app with one click.
-
-![Screenshot](images/screenshot.png)
 
 ## Features
 

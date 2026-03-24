@@ -16,10 +16,12 @@ A VS Code extension that adds a button to open your current project in [Codex](h
 
 ## Installation
 
-### From VSIX
+### Download from Releases
+
+Download the latest `.vsix` file from [Releases](https://github.com/jae-jae/codex-opener/releases) and install:
 
 ```bash
-code --install-extension codex-opener-1.0.0.vsix
+code --install-extension codex-opener-*.vsix
 ```
 
 ### From Source
@@ -27,10 +29,10 @@ code --install-extension codex-opener-1.0.0.vsix
 ```bash
 git clone https://github.com/jae-jae/codex-opener.git
 cd codex-opener
-npm install
-npm run compile
+bun install
+bun run compile
 vsce package
-code --install-extension codex-opener-1.0.0.vsix
+code --install-extension codex-opener-*.vsix
 ```
 
 ## Usage

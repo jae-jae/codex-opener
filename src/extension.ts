@@ -117,7 +117,7 @@ export function activate(context: vscode.ExtensionContext) {
             // 2. 只有应用刚启动时才等待
             if (needsWait) {
                 console.log('Codex was not running, waiting for it to start...');
-                await new Promise(resolve => setTimeout(resolve, 1500));
+                await new Promise(resolve => setTimeout(resolve, 2500));
             }
 
             // 3. 执行 codex app 命令打开项目

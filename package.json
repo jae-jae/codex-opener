@@ -1,0 +1,71 @@
+{
+  "name": "codex-opener",
+  "displayName": "Codex Opener",
+  "description": "Open current project in Codex desktop app with one click",
+  "version": "1.0.0",
+  "publisher": "jae-jae",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jae-jae/codex-opener.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jae-jae/codex-opener/issues"
+  },
+  "homepage": "https://github.com/jae-jae/codex-opener#readme",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "codexOpener.openProject",
+        "title": "Open in Codex Desktop",
+        "icon": {
+          "light": "media/codex-icon.svg",
+          "dark": "media/codex-icon.svg"
+        }
+      }
+    ],
+    "menus": {
+      "editor/title": [
+        {
+          "command": "codexOpener.openProject",
+          "group": "navigation@1",
+          "when": "workspaceFolderCount >= 1"
+        }
+      ]
+    },
+    "configuration": {
+      "title": "Codex Opener",
+      "properties": {
+        "codexOpener.codexPath": {
+          "type": "string",
+          "default": "codex",
+          "description": "Path to codex CLI executable"
+        }
+      }
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile",
+    "lint": "eslint src --ext ts"
+  },
+  "devDependencies": {
+    "@types/node": "^20.x",
+    "@types/vscode": "^1.85.0",
+    "@typescript-eslint/eslint-plugin": "^6.x",
+    "@typescript-eslint/parser": "^6.x",
+    "eslint": "^8.x",
+    "typescript": "^5.x"
+  }
+}

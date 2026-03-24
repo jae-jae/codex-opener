@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="images/screenshot.png" alt="Screenshot" width="600">
+  <img src="images/screenshot.png" alt="Screenshot">
 </div>
 
 # Codex Opener

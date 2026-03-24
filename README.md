@@ -2,6 +2,8 @@
 
 A VS Code extension that adds a button to open your current project in [Codex](https://github.com/openai/codex) desktop app with one click.
 
+![Screenshot](images/screenshot.png)
+
 ## Features
 
 - One-click button in editor title bar

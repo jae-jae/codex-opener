@@ -2,7 +2,7 @@
   "name": "codex-opener",
   "displayName": "Codex Opener",
   "description": "Open current project in Codex desktop app with one click",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publisher": "Jaeger",
   "author": {
     "name": "Jaeger"

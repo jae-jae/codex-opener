@@ -107,9 +107,6 @@ export function activate(context: vscode.ExtensionContext) {
         const config = vscode.workspace.getConfiguration('codexOpener');
         const codexPath = config.get<string>('codexPath') || 'codex';
 
-        // 显示正在打开的提示
-        vscode.window.showInformationMessage(`Opening project in Codex Desktop...`);
-
         try {
             // 1. 先激活 Codex 窗口（包括从最小化状态恢复）
             const needsWait = await activateCodexWindow();
@@ -129,7 +126,6 @@ export function activate(context: vscode.ExtensionContext) {
             }
 
             console.log(`stdout: ${stdout}`);
-            vscode.window.showInformationMessage(`Opened in Codex Desktop: ${path.basename(workspacePath)}`);
 
         } catch (error) {
             const errorMessage = error instanceof Error ? error.message : String(error);

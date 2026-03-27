@@ -2,6 +2,17 @@
   <img src="images/screenshot.png" alt="Screenshot">
 </div>
 
+[中文](https://zdoc.app/zh/jae-jae/codex-opener) | 
+[Deutsch](https://zdoc.app/de/jae-jae/codex-opener) | 
+[English](https://zdoc.app/en/jae-jae/codex-opener) | 
+[Español](https://zdoc.app/es/jae-jae/codex-opener) | 
+[français](https://zdoc.app/fr/jae-jae/codex-opener) | 
+[日本語](https://zdoc.app/ja/jae-jae/codex-opener) | 
+[한국어](https://zdoc.app/ko/jae-jae/codex-opener) | 
+[Português](https://zdoc.app/pt/jae-jae/codex-opener) | 
+[Русский](https://zdoc.app/ru/jae-jae/codex-opener) | 
+
+
 # Codex Opener
 
 A VS Code extension that adds a button to open your current project in [Codex](https://github.com/openai/codex) desktop app with one click.

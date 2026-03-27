@@ -6,7 +6,12 @@
 
 A VS Code extension that adds a button to open your current project in [Codex](https://github.com/openai/codex) desktop app with one click.
 
-> 🌟 **Recommended**: [OllaMan](https://ollaman.com/) - Powerful Ollama AI Model Manager.
+## Installation
+
+Search **"Codex Opener"** in VS Code Extensions marketplace, or install from:
+
+- [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=Jaeger.codex-opener)
+- [Open VSX Registry](https://open-vsx.org/extension/Jaeger/codex-opener)
 
 ## Features
 
@@ -19,27 +24,6 @@ A VS Code extension that adds a button to open your current project in [Codex](h
 
 - [Codex CLI](https://github.com/openai/codex) installed
 - [Codex Desktop](https://github.com/openai/codex) installed
-
-## Installation
-
-### Download from Releases
-
-Download the latest `.vsix` file from [Releases](https://github.com/jae-jae/codex-opener/releases) and install:
-
-```bash
-code --install-extension codex-opener-*.vsix
-```
-
-### From Source
-
-```bash
-git clone https://github.com/jae-jae/codex-opener.git
-cd codex-opener
-bun install
-bun run compile
-vsce package
-code --install-extension codex-opener-*.vsix
-```
 
 ## Usage
 

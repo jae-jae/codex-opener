@@ -22,7 +22,7 @@ A VS Code extension that adds a button to open your current project in [Codex](h
 ## Features
 
 - One-click button in editor title bar
-- Automatically activates Codex window (even when minimized)
+- Automatically activates Codex window (even when the app is not running)
 - Works on macOS, Windows, and Linux
 - No configuration needed
 
